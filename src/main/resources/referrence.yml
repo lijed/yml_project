@@ -1,0 +1,27 @@
+defaults: &defaults
+  adapter:  postgres
+  host:     localhost
+
+
+development:
+  database: myapp_development
+  <<: *defaults
+
+test:
+  database: myapp_test
+  <<: *defaults
+
+#### 相当于
+#defaults:
+#  adapter:  postgres
+#  host:     localhost
+#
+#development:
+#  database: myapp_development
+#  adapter:  postgres
+#  host:     localhost
+#
+#test:
+#  database: myapp_test
+#  adapter:  postgres
+#  host:     localhost

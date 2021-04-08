@@ -1,0 +1,36 @@
+name: jed
+
+
+com:
+  ariix:
+    it:
+      projects:
+        - projectName: iconn
+          worker: 15
+          lead: jed
+        - projectName: OnlineService
+          worker: 16
+          lead: Michael
+
+
+kc:
+  ariix:
+    it:
+      projects: [{projectName: iconn, worker: 15, lead: jed},{projectName: OnlineServices, worker: 15, lead: jed},{projectName: app, worker: 15, lead: jed}]
+
+
+jed:
+  alias:
+    - a
+    - b
+    - c
+
+
+thomos:
+  alias:
+    - shunlun
+    - tiantian
+
+sex:
+  man: TRUE
+
